@@ -1,0 +1,117 @@
+
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* Fonte mais moderna */
+    background-color: #f8f9fa; /* Fundo claro padrão */
+    color: #212529; /* Cor de texto principal */
+    padding-top: 56px; /* Espaço para a navbar fixa */
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.05); /* Sombra sutil */
+}
+.navbar-brand img {
+    height: 40px; /* Ajuste de altura para o logo */
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8); /* Cor do texto do link na navbar escura */
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #ffffff; /* Cor do texto do link ao passar o mouse/ativo */
+}
+
+/* Jumbotron (Seção de Destaque) */
+.jumbotron {
+    background-color: #e9ecef; /* Um cinza mais claro para o jumbotron */
+    padding: 4rem 2rem;
+    margin-bottom: 0; /* Remove margem inferior padrão */
+}
+.jumbotron-heading {
+    font-weight: 300; /* Fonte mais leve */
+    color: #343a40;
+}
+
+/* Carrossel */
+.carousel-item img {
+    border-radius: .5rem; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0,0,0,.1); /* Sombra para destaque */
+}
+
+/* Cards de Produto */
+.card {
+    border: none; /* Remove borda padrão */
+    border-radius: .5rem; /* Cantos arredondados */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de levantar */
+    box-shadow: 0 8px 16px rgba(0,0,0,.15); /* Sombra mais pronunciada */
+}
+
+.card-img-top {
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    height: 200px; /* Altura fixa para as imagens dos cards */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Seção de Clientes */
+#clientes .rounded-circle {
+    border: 3px solid #007bff; /* Borda colorida para as fotos dos clientes */
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40; /* Fundo escuro */
+    color: #f8f9fa; /* Texto claro */
+}
+footer a {
+    color: #ffffff; /* Links brancos */
+    text-decoration: none;
+}
+footer a:hover {
+    color: #cccccc;
+}
+
+/* Utilitários */
+.display-4 {
+    font-weight: 300;
+}
